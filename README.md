@@ -14,10 +14,10 @@ The goal is to support data-driven decision-making for improving customer retent
 * Identify factors contributing to customer churn
 
 ## Dataset Information
-**Source**: Kaggle
-**Dataset Type**: Telecom Customer Data
-**Rows**: 7043
-**Columns**: 21
+* **Source**: Kaggle
+* **Dataset Type**: Telecom Customer Data
+* **Rows**: 7043
+* **Columns**: 21
 
 ## Features Include:
 * Customer demographics (gender, senior citizen, etc.)
