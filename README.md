@@ -7,11 +7,11 @@ Customer churn is a critical challenge in the telecommunications industry, where
 The goal is to support data-driven decision-making for improving customer retention strategies.
 
 ## Objectives
-Understand customer behavior and churn patterns
-Perform data preprocessing and cleaning
-Conduct Exploratory Data Analysis (EDA)
-Visualize key insights using graphs
-Identify factors contributing to customer churn
+* Understand customer behavior and churn patterns
+* Perform data preprocessing and cleaning
+* Conduct Exploratory Data Analysis (EDA)
+* Visualize key insights using graphs
+* Identify factors contributing to customer churn
 
 ## Dataset Information
 **Source**: Kaggle
@@ -20,111 +20,111 @@ Identify factors contributing to customer churn
 **Columns**: 21
 
 ## Features Include:
-Customer demographics (gender, senior citizen, etc.)
-Services subscribed (internet, phone, streaming)
-Account information (tenure, contract type)
-Billing details (monthly charges, total charges)
-Target variable: Churn (Yes/No)
+* Customer demographics (gender, senior citizen, etc.)
+* Services subscribed (internet, phone, streaming)
+* Account information (tenure, contract type)
+* Billing details (monthly charges, total charges)
+* Target variable: Churn (Yes/No)
 
 # Phase 1: Data Understanding
 ## Objective
 
-To understand the dataset structure, features, and data types.
+* To understand the dataset structure, features, and data types.
 
 ## Activities Performed
 
-Loaded dataset using Pandas
-Viewed dataset structure using .head(), .shape
-Checked column names and data types
-Used .info() and .describe() for summary statistics
+* Loaded dataset using Pandas
+* Viewed dataset structure using .head(), .shape
+* Checked column names and data types
+* Used .info() and .describe() for summary statistics
 
 ## Observations
 
-Dataset contains both categorical and numerical variables
-Target variable is Churn
-Dataset is well-structured and suitable for analysis
+* Dataset contains both categorical and numerical variables
+* Target variable is Churn
+* Dataset is well-structured and suitable for analysis
 
 # Phase 2: Data Preprocessing
 ## Objective
 
-To clean and prepare the dataset for analysis.
+* To clean and prepare the dataset for analysis.
 
 ## Steps Performed
 
-Checked missing values using isnull()
-Verified duplicate records using duplicated()
-Converted data types where necessary
-Standardized categorical values
+* Checked missing values using isnull()
+* Verified duplicate records using duplicated()
+* Converted data types where necessary
+* Standardized categorical values
 
 ## Note
 
-The dataset obtained from Kaggle was already well-cleaned.
-Only minimal preprocessing was required to ensure consistency and correctness.
+* The dataset obtained from Kaggle was already well-cleaned.
+* Only minimal preprocessing was required to ensure consistency and correctness.
 
 ## Output
 
-Cleaned dataset ready for analysis
+* Cleaned dataset ready for analysis
 
 # Phase 3: Exploratory Data Analysis (EDA)
 ## Objective
 
-To explore data and identify patterns, trends, and relationships.
+* To explore data and identify patterns, trends, and relationships.
 
 ## Analysis Performed
 
 🔹 **Univariate Analysis**
-Distribution of churn
-Distribution of tenure and charges
+* Distribution of churn
+* Distribution of tenure and charges
 
 🔹 **Bivariate Analysis**
-Churn vs Contract Type
-Churn vs Tenure
-Churn vs Payment Method
+* Churn vs Contract Type
+* Churn vs Tenure
+* Churn vs Payment Method
 
 🔹 **Multivariate Analysis**
-Used groupby() and pivot tables
-Compared churn across multiple features
+* Used groupby() and pivot tables
+* Compared churn across multiple features
 
 🔹 **Statistical Analysis**
-Generated summary statistics
-Performed correlation analysis
+* Generated summary statistics
+* Performed correlation analysis
 
 ## Key Findings
 
-Customers with short tenure are more likely to churn
-Month-to-month contracts show higher churn rates
-Higher monthly charges are associated with increased churn
+* Customers with short tenure are more likely to churn
+* Month-to-month contracts show higher churn rates
+* Higher monthly charges are associated with increased churn
 
 # Phase 4: Data Visualization
 ## Objective
 
-To represent insights visually for better understanding.
+* To represent insights visually for better understanding.
 
 ## Visualizations Used
-Countplots (Churn distribution)
-Barplots (categorical relationships)
-Boxplots (numerical comparisons)
-Heatmap (correlation analysis)
+* Countplots (Churn distribution)
+* Barplots (categorical relationships)
+* Boxplots (numerical comparisons)
+* Heatmap (correlation analysis)
 
 ## Insights from Visualization
-High churn observed in flexible contracts
-Pricing plays a significant role in churn
-Strong relationship between tenure and total charges
+* High churn observed in flexible contracts
+* Pricing plays a significant role in churn
+* Strong relationship between tenure and total charges
 
 ## Tools & Technologies
-Programming Language: Python
-Libraries: Pandas, NumPy, Matplotlib, Seaborn
-Environment: Jupyter Notebook
+* Programming Language: Python
+* Libraries: Pandas, NumPy, Matplotlib, Seaborn
+* Environment: Jupyter Notebook
 
 ## Key Insights
-Short-term customers are more likely to churn
-Customers with higher charges tend to leave
-Long-term contracts improve retention
-Payment methods influence churn behavior
+* Short-term customers are more likely to churn
+* Customers with higher charges tend to leave
+* Long-term contracts improve retention
+* Payment methods influence churn behavior
 
 ## Conclusion
 
-This project demonstrates how data analysis can be used to understand customer behavior and reduce churn. The insights derived can help telecom companies design effective retention strategies and improve customer satisfaction.
+* This project demonstrates how data analysis can be used to understand customer behavior and reduce churn. The insights derived can help telecom companies design effective retention strategies and improve customer satisfaction.
 
 # Project Structure
 Customer-Churn-Analysis/
@@ -142,4 +142,4 @@ Customer-Churn-Analysis/
 
 ## Acknowledgment
 
-Dataset sourced from Kaggle.
+* Dataset sourced from Kaggle.
